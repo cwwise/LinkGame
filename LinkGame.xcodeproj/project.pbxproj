@@ -8,14 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		1FB874E22549C47100AE5DD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB874E12549C47100AE5DD3 /* AppDelegate.swift */; };
-		1FB874E42549C47100AE5DD3 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1FB874E32549C47100AE5DD3 /* GameScene.sks */; };
-		1FB874E62549C47100AE5DD3 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1FB874E52549C47100AE5DD3 /* Actions.sks */; };
 		1FB874E82549C47100AE5DD3 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB874E72549C47100AE5DD3 /* GameScene.swift */; };
 		1FB874EA2549C47100AE5DD3 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB874E92549C47100AE5DD3 /* GameViewController.swift */; };
 		1FB874ED2549C47100AE5DD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FB874EB2549C47100AE5DD3 /* Main.storyboard */; };
 		1FB874EF2549C47200AE5DD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FB874EE2549C47200AE5DD3 /* Assets.xcassets */; };
 		1FB874FA2549C47200AE5DD3 /* LinkGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB874F92549C47200AE5DD3 /* LinkGameTests.swift */; };
 		1FB875052549C47200AE5DD3 /* LinkGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB875042549C47200AE5DD3 /* LinkGameUITests.swift */; };
+		1FB8751A2549C4B100AE5DD3 /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB875192549C4B100AE5DD3 /* Tile.swift */; };
+		1FB8751F2549C4C400AE5DD3 /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB8751E2549C4C400AE5DD3 /* Array2D.swift */; };
+		1FB87524254B09B800AE5DD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FB87523254B09B800AE5DD3 /* LaunchScreen.storyboard */; };
+		1FB8752C254B0B5E00AE5DD3 /* Cookie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB8752B254B0B5E00AE5DD3 /* Cookie.swift */; };
+		1FB87531254B0F1700AE5DD3 /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB87530254B0F1700AE5DD3 /* Level.swift */; };
+		1FB87537254B120800AE5DD3 /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 1FB87535254B120800AE5DD3 /* Sprites.atlas */; };
+		1FB87538254B120800AE5DD3 /* Grid.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 1FB87536254B120800AE5DD3 /* Grid.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +43,6 @@
 /* Begin PBXFileReference section */
 		1FB874DE2549C47100AE5DD3 /* LinkGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinkGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FB874E12549C47100AE5DD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1FB874E32549C47100AE5DD3 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		1FB874E52549C47100AE5DD3 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		1FB874E72549C47100AE5DD3 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		1FB874E92549C47100AE5DD3 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		1FB874EC2549C47100AE5DD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -51,6 +54,13 @@
 		1FB875002549C47200AE5DD3 /* LinkGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinkGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FB875042549C47200AE5DD3 /* LinkGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkGameUITests.swift; sourceTree = "<group>"; };
 		1FB875062549C47200AE5DD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FB875192549C4B100AE5DD3 /* Tile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
+		1FB8751E2549C4C400AE5DD3 /* Array2D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
+		1FB87523254B09B800AE5DD3 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1FB8752B254B0B5E00AE5DD3 /* Cookie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cookie.swift; sourceTree = "<group>"; };
+		1FB87530254B0F1700AE5DD3 /* Level.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
+		1FB87535254B120800AE5DD3 /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
+		1FB87536254B120800AE5DD3 /* Grid.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Grid.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +112,15 @@
 			isa = PBXGroup;
 			children = (
 				1FB874E12549C47100AE5DD3 /* AppDelegate.swift */,
-				1FB874E32549C47100AE5DD3 /* GameScene.sks */,
-				1FB874E52549C47100AE5DD3 /* Actions.sks */,
 				1FB874E72549C47100AE5DD3 /* GameScene.swift */,
+				1FB875192549C4B100AE5DD3 /* Tile.swift */,
+				1FB8752B254B0B5E00AE5DD3 /* Cookie.swift */,
+				1FB87530254B0F1700AE5DD3 /* Level.swift */,
+				1FB8751E2549C4C400AE5DD3 /* Array2D.swift */,
+				1FB87523254B09B800AE5DD3 /* LaunchScreen.storyboard */,
 				1FB874E92549C47100AE5DD3 /* GameViewController.swift */,
+				1FB87536254B120800AE5DD3 /* Grid.atlas */,
+				1FB87535254B120800AE5DD3 /* Sprites.atlas */,
 				1FB874EB2549C47100AE5DD3 /* Main.storyboard */,
 				1FB874EE2549C47200AE5DD3 /* Assets.xcassets */,
 				1FB874F02549C47200AE5DD3 /* Info.plist */,
@@ -234,10 +249,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FB87524254B09B800AE5DD3 /* LaunchScreen.storyboard in Resources */,
 				1FB874ED2549C47100AE5DD3 /* Main.storyboard in Resources */,
-				1FB874E42549C47100AE5DD3 /* GameScene.sks in Resources */,
+				1FB87537254B120800AE5DD3 /* Sprites.atlas in Resources */,
+				1FB87538254B120800AE5DD3 /* Grid.atlas in Resources */,
 				1FB874EF2549C47200AE5DD3 /* Assets.xcassets in Resources */,
-				1FB874E62549C47100AE5DD3 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,8 +279,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FB874E82549C47100AE5DD3 /* GameScene.swift in Sources */,
+				1FB87531254B0F1700AE5DD3 /* Level.swift in Sources */,
+				1FB8752C254B0B5E00AE5DD3 /* Cookie.swift in Sources */,
 				1FB874EA2549C47100AE5DD3 /* GameViewController.swift in Sources */,
 				1FB874E22549C47100AE5DD3 /* AppDelegate.swift in Sources */,
+				1FB8751A2549C4B100AE5DD3 /* Tile.swift in Sources */,
+				1FB8751F2549C4C400AE5DD3 /* Array2D.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,7 +453,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8MPY5F2VM7;
 				INFOPLIST_FILE = LinkGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,7 +473,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8MPY5F2VM7;
 				INFOPLIST_FILE = LinkGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
